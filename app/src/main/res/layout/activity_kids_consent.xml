@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919"
+    tools:context=".KidsConsent">
+
+    <CheckBox
+        android:id="@+id/agreeActOnBehalfK"
+        android:layout_width="367dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:checked="false"
+        android:fontFamily="casual"
+        android:text="@string/authorize_to_act_kids"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agreePhotographyK" />
+
+    <CheckBox
+        android:id="@+id/agreePhotographyK"
+        android:layout_width="364dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:checked="false"
+        android:fontFamily="casual"
+        android:text="@string/consent_to_photography_kids"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agreeUpdateK" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="378dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/helpful_information"
+        android:textColor="#66DAA520"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/specialDetailsK" />
+
+    <EditText
+        android:id="@+id/helpfulInformationK"
+        android:layout_width="378dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:gravity="top"
+        android:hint="@string/enter_here"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:maxLength="220"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:maxLines="4"
+        android:text="@string/new_player"
+        android:textAlignment="center"
+        android:textColor="#66DAA520"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="378dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/other_known_conditions"
+        android:textColor="#66DAA520"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <EditText
+        android:id="@+id/specialDetailsK"
+        android:layout_width="378dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:gravity="top"
+        android:hint="@string/enter_here"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:maxLength="220"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <CheckBox
+        android:id="@+id/agreeUpdateK"
+        android:layout_width="364dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:checked="false"
+        android:fontFamily="casual"
+        android:text="@string/agree_to_update_kids"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helpfulInformationK" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="79dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:gravity="center_vertical"
+        android:text="@string/full_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agreeActOnBehalfK" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="79dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:gravity="center_vertical"
+        android:text="@string/todays_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <EditText
+        android:id="@+id/signedNameK"
+        android:layout_width="200dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/hint_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColorLink="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/agreeActOnBehalfK" />
+
+    <EditText
+        android:id="@+id/signedDateK"
+        android:layout_width="166dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/todays_date_hint"
+        android:importantForAutofill="no"
+        android:inputType="date|text"
+        android:textColorLink="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/signedNameK" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#191919"
+        android:fontFamily="@font/walter_turncoat"
+        android:onClick="openRegistrationFinish"
+        android:text="@string/next_page"
+        android:textColor="#66DAA520"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#191919"
+        android:onClick="openHomeScreen"
+        android:scaleType="fitCenter"
+        android:tint="#66DAA520"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+</android.support.constraint.ConstraintLayout>

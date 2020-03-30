@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zanshinjudoclub">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/zanshinjudo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SelectGrade"></activity>
+        <activity android:name=".SelectAvatar" />
+        <activity android:name=".CorrectDetails" />
+        <activity android:name=".CreateLogin" />
+        <activity android:name=".RegistrationSearch" />
+        <activity android:name=".PayMatFees" />
+        <activity android:name=".CameraOrTaggedEdit" />
+        <activity android:name=".PhotoOrAvatarEdit" />
+        <activity android:name=".AlmostMember" />
+        <activity android:name=".CameraOrTagged" />
+        <activity android:name=".PhotoOrAvatar" />
+        <activity android:name=".Video" />
+        <activity android:name=".WhyJoin" />
+        <activity android:name=".AdultConsent" />
+        <activity android:name=".AdultRegistration" />
+        <activity android:name=".RegistrationFinish" />
+        <activity android:name=".KidsConsent" />
+        <activity android:name=".KidsRegistration" />
+        <activity android:name=".CheckAge" />
+        <activity android:name=".FirstSessionCongrats" />
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

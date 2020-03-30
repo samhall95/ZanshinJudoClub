@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919"
+    tools:context=".CorrectDetails">
+
+    <EditText
+        android:id="@+id/editText40"
+        android:layout_width="204dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView111"
+        app:layout_constraintTop_toBottomOf="@+id/textView110" />
+
+    <EditText
+        android:id="@+id/editText42"
+        android:layout_width="173dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/relation_hint"
+        android:inputType="textPersonName"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView112"
+        app:layout_constraintTop_toBottomOf="@+id/editText40" />
+
+    <EditText
+        android:id="@+id/editText43"
+        android:layout_width="261dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/hint_address"
+        android:inputType="textPostalAddress"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView113"
+        app:layout_constraintTop_toBottomOf="@+id/editText42" />
+
+    <EditText
+        android:id="@+id/editText47"
+        android:layout_width="261dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/hint_address"
+        android:inputType="textPostalAddress"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView113"
+        app:layout_constraintTop_toBottomOf="@+id/editText43" />
+
+    <EditText
+        android:id="@+id/editText44"
+        android:layout_width="170dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/phone_hint"
+        android:inputType="phone"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView115"
+        app:layout_constraintTop_toBottomOf="@+id/editText47" />
+
+    <EditText
+        android:id="@+id/editText45"
+        android:layout_width="233dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView116"
+        app:layout_constraintTop_toBottomOf="@+id/editText44" />
+
+    <EditText
+        android:id="@+id/editText46"
+        android:layout_width="136dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/postcode_hint"
+        android:inputType="textPostalAddress"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView117"
+        app:layout_constraintTop_toBottomOf="@+id/editText45" />
+
+    <EditText
+        android:id="@+id/editText26"
+        android:layout_width="136dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/postcode_hint"
+        android:inputType="textPostalAddress"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView109"
+        app:layout_constraintTop_toBottomOf="@+id/editText25" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="170dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/phone_hint"
+        android:inputType="phone"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView107"
+        app:layout_constraintTop_toBottomOf="@+id/editText21" />
+
+    <EditText
+        android:id="@+id/editText25"
+        android:layout_width="233dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView108"
+        app:layout_constraintTop_toBottomOf="@+id/editText24" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="261dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/hint_address"
+        android:inputType="textPostalAddress"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView105"
+        app:layout_constraintTop_toBottomOf="@+id/editText19" />
+
+    <EditText
+        android:id="@+id/editText21"
+        android:layout_width="261dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/hint_address"
+        android:inputType="textPostalAddress"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView105"
+        app:layout_constraintTop_toBottomOf="@+id/editText20" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/check_details"
+        android:textAlignment="center"
+        android:textColor="#66DAA520"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/full_name"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView102" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/date_of_birth"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView103" />
+
+    <EditText
+        android:id="@+id/editText17"
+        android:layout_width="204dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/hint_name"
+        android:inputType="textPersonName"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView103"
+        app:layout_constraintTop_toBottomOf="@+id/textView102" />
+
+    <EditText
+        android:id="@+id/editText19"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/walter_turncoat"
+        android:hint="@string/dob_hint"
+        android:inputType="date"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView104"
+        app:layout_constraintTop_toBottomOf="@+id/editText17" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/address"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView104" />
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/phone_number"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText21" />
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/email_address"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView107" />
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/postcode"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView108" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/emergency_details"
+        android:textColor="#66DAA520"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView109" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/full_name"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView110" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/relation"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView111" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/address"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView112" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/phone_number"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText47" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/email_address"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="102dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/postcode"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView116" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#191919"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/next_page"
+        android:textColor="#66DAA520"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#191919"
+        android:scaleType="fitCenter"
+        android:tint="#66DAA520"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+</android.support.constraint.ConstraintLayout>
